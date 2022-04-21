@@ -1,0 +1,55 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+
+* {
+   -fx-font-family: Tahoma; 
+}
+
+VBox {
+    -fx-background-color: lightblue;
+    -fx-padding: 10;
+    -fx-spacing: 10;
+    -fx-alignment: CENTER;
+}
+
+HBox {
+    -fx-spacing: 10;
+    -fx-alignment: CENTER;
+}
+
+TextField, PasswordField{
+    -fx-pref-height: 35;
+    -fx-font-size: 18;
+}
+
+Text.Subject {
+    -fx-font-size: 36;
+    -fx-fill: yellow;
+    -fx-stroke-width: 2;
+    -fx-stroke: orange;
+}
+
+Button.ChooseRole {
+    -fx-font-size: 18;
+}
+
+Button.Login {
+    -fx-font-size: 18;
+}
+
+HBox.Nhan {
+    -fx-alignment: center-left;
+    -fx-padding: 0;
+}
+Label{
+    -fx-font-size: 18;
+}
+
+DatePicker {
+    -fx-font-size: 18;
+}
+
+
+
