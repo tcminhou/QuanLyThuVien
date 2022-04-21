@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="1008.0" stylesheets="@../../../styles/style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.quanlythuvien.FXMLQuanLySachController">
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Subject" text="QUẢN LÝ SÁCH" />
+      <TableView fx:id="tbVSach" prefHeight="368.0" prefWidth="987.0" />
+      <HBox prefHeight="64.0" prefWidth="987.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#themSachHandler" styleClass="Login" text="Thêm sách" />
+            <Button mnemonicParsing="false" onAction="#suaSachHandler" styleClass="Login" text="Sửa sách" />
+            <Button mnemonicParsing="false" onAction="#xoaSachHandler" styleClass="Login" text="Xóa sách" />
+            <Button mnemonicParsing="false" onAction="#lamMoiHandler" styleClass="Login" text="Làm mới" />
+         </children>
+      </HBox>
+   </children>
+</VBox>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="314.0" prefWidth="600.0" stylesheets="@../../../styles/style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.quanlythuvien.FXMLFunctionController">
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Subject" text="VUI LÒNG CHỌN CHỨC NĂNG" />
+      <HBox prefHeight="63.0" prefWidth="579.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#quanLyDocGiaHandler" styleClass="ChooseRole" text="Quản Lý Độc Giả">
+               <HBox.margin>
+                  <Insets right="50.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#quanLySachHandler" styleClass="ChooseRole" text="Quản Lý Sách">
+               <HBox.margin>
+                  <Insets left="20.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <HBox layoutX="20.0" layoutY="206.0" prefHeight="63.0" prefWidth="579.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#quanLyMuonTraHandler" styleClass="ChooseRole" text="Quản Lý Mượn Trả">
+               <HBox.margin>
+                  <Insets right="50.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#thongKeHandler" styleClass="ChooseRole" text="Thống Kê">
+               <HBox.margin>
+                  <Insets left="30.0" right="20.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>
